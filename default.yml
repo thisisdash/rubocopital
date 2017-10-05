@@ -1,0 +1,210 @@
+# Took this from NFR needs updating
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - 'db/migrate/*'
+    - 'db/seeds/*'
+    - 'db/schema.rb'
+    - 'db/seeds.rb'
+    - 'script/**/*'
+    - 'bin/**/*'
+    - 'lib/noxa/patches/**/*'
+    - 'vendor/**/*'
+    - 'test/**/**/*'
+    - 'Gemfile'
+    - 'Gemfile.lock'
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+
+Layout/AlignHash:
+  EnforcedHashRocketStyle: key
+  # key - left alignment of keys
+  #   'a' => 2
+  #   'bb' => 3
+  EnforcedColonStyle: key
+  # key - left alignment of keys
+  #   a: 0
+  #   bb: 1
+  EnforcedLastArgumentHashStyle: ignore_implicit
+  # ignore_implicit - Ignore only implicit hashes.
+  #   Accepts:
+  #     function(a: 1,
+  #       b: 2)
+  #   Registers an offense for:
+  #     function({a: 1,
+  #       b: 2})
+
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+  # The `with_fixed_indentation` style aligns the following lines with one
+  # level of indentation relative to the start of the line with the method call.
+  #
+  #     method_call(a,
+  #       b)
+
+Style/AndOr:
+  EnforcedStyle: conditionals
+  # `and` and `or` are banned only in conditionals (conditionals)
+
+Style/BlockDelimiters:
+  EnforcedStyle: line_count_based
+  # The `line_count_based` style enforces braces around single line blocks and
+  # do..end around multi-line blocks.
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Layout/DotPosition:
+  EnforcedStyle: leading
+  # Multi-line method chaining should be done with leading dots.
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/HashSyntax:
+  EnforcedStyle: ruby19
+  # checks for 1.9 syntax (e.g. {a: 1}) for all symbol keys
+
+Layout/IndentationWidth:
+  Width: 2
+  # Number of spaces for each indentation level.
+
+Style/IdenticalConditionalBranches:
+  Enabled: false
+  # Redirect_to usage in conditionals
+
+Style/Encoding:
+  EnforcedStyle: when_needed
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
+Style/NumericPredicate:
+  Enabled: false
+  # Use .positive? instead of > 0
+  # Use .zero? instead of == 0
+  # Use .nonzero? instead of != 0.
+
+Style/MethodMissing:
+  Enabled: false
+  # When using method_missing, define respond_to_missing?. (used in ACL)
+
+Style/GlobalVars:
+  Enabled: false
+  # Do not introduce global variables. (used for cucumber custom_env)
+
+Style/RegexpLiteral:
+  Enabled: false
+  # Use // around regular expression.
+
+Style/NumericLiteralPrefix:
+  Enabled: false
+  # Use 0o for octal literals.
+
+Layout/MultilineMethodCallBraceLayout:
+  Enabled: false
+
+Layout/SpaceBeforeBlockBraces:
+  EnforcedStyle: space
+
+Layout/SpaceAroundEqualsInParameterDefault:
+  EnforcedStyle: space
+
+Layout/SpaceInsideBlockBraces:
+  EnforcedStyle: space
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: space
+  EnforcedStyleForEmptyBraces: no_space
+
+Layout/TrailingBlankLines:
+  EnforcedStyle: final_newline
+
+Style/WordArray:
+  EnforcedStyle: percent
+  # percent style: %w(word1 word2)
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/EachWithObject:
+  Enabled: false
+
+Rails/Date:
+  EnforcedStyle: flexible
+  # The value `flexible` allows usage of `Date.current`, `Date.yesterday`, etc
+  # (but not `Date.today`) which are overridden by ActiveSupport to handle current
+  # time zone.
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
+Lint/EndAlignment:
+  EnforcedStyleAlignWith: variable
+
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Style/TrivialAccessors:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 180
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 30
+  Severity: warning
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/ParameterLists:
+  Enabled: false
+
+Documentation:
+  Enabled: false
+
+Rails:
+  Enabled: true
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Rails/OutputSafety:
+  Enabled: false
+  # Prefer safe_join instead of html_save
+
+Rails/HttpPositionalArguments:
+  Enabled: false
+  # prefer get(:new, params: {}) instead of get(:new, {})
+
+Rails/SkipsModelValidations:
+  Enabled: false
+
+Rails/FilePath:
+  Enabled: false
+
+Rails/Validation:
+  Enabled: false
+
+Rails/HasAndBelongsToMany:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/ModuleFunction:
+  Enabled: false
+
