@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Peter de Ruijter"]
   spec.email         = ["p.deruijter@youngcapital.nl"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Shared rubocop configuration}
+  spec.description   = %q{We need to have a common configuration of ruby style, this gem hold that.}
+  spec.homepage      = "https://gitlab.ycdev.nl/youngcapital/rubocopital"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -30,6 +30,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.add_runtime_dependency "rubocop"
   spec.add_development_dependency "bundler", "~> 1.15"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
