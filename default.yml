@@ -35,6 +35,7 @@ Layout/AlignHash:
   #       b: 2})
 
 Layout/AlignParameters:
+  # YC Compliant
   EnforcedStyle: with_fixed_indentation
   # The `with_fixed_indentation` style aligns the following lines with one
   # level of indentation relative to the start of the line with the method call.
@@ -43,81 +44,108 @@ Layout/AlignParameters:
   #       b)
 
 Style/AndOr:
+  # YC Compliant
   EnforcedStyle: conditionals
   # `and` and `or` are banned only in conditionals (conditionals)
 
 Style/BlockDelimiters:
+  # YC Compliant
   EnforcedStyle: line_count_based
   # The `line_count_based` style enforces braces around single line blocks and
   # do..end around multi-line blocks.
 
 Style/ClassAndModuleChildren:
+  # YC Compliant
   EnforcedStyle: compact
 
 Layout/DotPosition:
+  # YC Compliant
   EnforcedStyle: leading
   # Multi-line method chaining should be done with leading dots.
 
 Style/FrozenStringLiteralComment:
+  # YC Compliant
   Enabled: false
 
 Style/HashSyntax:
+  # YC Compliant
   EnforcedStyle: ruby19
   # checks for 1.9 syntax (e.g. {a: 1}) for all symbol keys
 
 Layout/IndentationWidth:
+  # YC Compliant
   Width: 2
   # Number of spaces for each indentation level.
 
 Style/IdenticalConditionalBranches:
+  # YC Compliant
   Enabled: false
   # Redirect_to usage in conditionals
 
 Style/Encoding:
+  # YC Compliant
   EnforcedStyle: when_needed
 
 Lint/AmbiguousBlockAssociation:
-  Enabled: false
+  # YC Compliant
+  Enabled: true
 
 Style/NumericPredicate:
+  # YC Compliant
   Enabled: false
   # Use .positive? instead of > 0
   # Use .zero? instead of == 0
   # Use .nonzero? instead of != 0.
 
 Style/MethodMissing:
+  # YC Compliant
   Enabled: false
   # When using method_missing, define respond_to_missing?. (used in ACL)
 
 Style/GlobalVars:
-  Enabled: false
+  # YC Compliant
+  Enabled: true
+  AllowedVariables: [$ASSET_MODE]
   # Do not introduce global variables. (used for cucumber custom_env)
 
 Style/RegexpLiteral:
-  Enabled: false
+  # YC Compliant
+  EnforcedStyle: slashes
+  Enabled: true
   # Use // around regular expression.
 
 Style/NumericLiteralPrefix:
-  Enabled: false
+  # YC Compliant
+  EnforcedOctalStyle: zero_with_o
+  SupportedOctalStyles:
+    - zero_with_o
+    - zero_only
+  Enabled: true
   # Use 0o for octal literals.
 
-Layout/MultilineMethodCallBraceLayout:
-  Enabled: false
+Layout/MultilineArrayBraceLayout:
+  # YC Compliant
+  EnforcedStyle: symmetrical
 
 Layout/SpaceBeforeBlockBraces:
+  # YC Compliant
   EnforcedStyle: space
 
 Layout/SpaceAroundEqualsInParameterDefault:
+  # YC Compliant
   EnforcedStyle: space
 
 Layout/SpaceInsideBlockBraces:
+  # YC Compliant
   EnforcedStyle: space
 
 Layout/SpaceInsideHashLiteralBraces:
+  # YC Compliant
   EnforcedStyle: space
   EnforcedStyleForEmptyBraces: no_space
 
 Layout/TrailingBlankLines:
+  # YC Compliant
   EnforcedStyle: final_newline
 
 Style/WordArray:
@@ -125,86 +153,112 @@ Style/WordArray:
   # percent style: %w(word1 word2)
 
 Style/SymbolArray:
-  Enabled: false
+  # YC Compliant
+  EnforcedStyle: percent
+  Enabled: true
 
 Style/EachWithObject:
+  # YC Compliant
   Enabled: false
 
 Rails/Date:
+  # YC Compliant
   EnforcedStyle: flexible
   # The value `flexible` allows usage of `Date.current`, `Date.yesterday`, etc
   # (but not `Date.today`) which are overridden by ActiveSupport to handle current
   # time zone.
 
 Lint/AmbiguousBlockAssociation:
-  Enabled: false
+  # YC Compliant
+  Enabled: true
 
 Lint/EndAlignment:
+  # YC Compliant
   EnforcedStyleAlignWith: variable
 
 Layout/MultilineOperationIndentation:
+  # YC Compliant
   EnforcedStyle: indented
 
 Style/TrivialAccessors:
-  Enabled: false
+  Enabled: true
 
 Style/Lambda:
-  Enabled: false
+  # YC Compliant
+  EnforcedStyle: line_count_dependent
 
 Metrics/AbcSize:
+  # YC Compliant
   Enabled: false
 
 Metrics/LineLength:
-  Max: 180
+  # YC Compliant
+  Max: 120
 
 Metrics/BlockLength:
-  Enabled: false
+  # YC Compliant
+  CountComments: false  # count full line comments?
+  Max: 50
 
 Metrics/ClassLength:
+  # YC Compliant
   Enabled: false
 
 Metrics/MethodLength:
+  # YC Compliant
   Max: 30
   Severity: warning
 
 Metrics/ModuleLength:
+  # YC Compliant
   Enabled: false
 
 Metrics/ParameterLists:
-  Enabled: false
+  # YC Compliant
+  Max: 5
+  CountKeywordArgs: true
 
 Documentation:
+  # YC Compliant
   Enabled: false
 
 Rails:
+  # YC Compliant
   Enabled: true
 
 Bundler/OrderedGems:
-  Enabled: false
+  # YC Compliant
+  TreatCommentsAsGroupSeparators: true
 
 Rails/OutputSafety:
+  # YC Compliant
   Enabled: false
   # Prefer safe_join instead of html_save
 
 Rails/HttpPositionalArguments:
+  # YC Compliant
   Enabled: false
   # prefer get(:new, params: {}) instead of get(:new, {})
 
 Rails/SkipsModelValidations:
+  # YC Compliant
   Enabled: false
 
 Rails/FilePath:
   Enabled: false
 
 Rails/Validation:
-  Enabled: false
+  Enabled: true
 
 Rails/HasAndBelongsToMany:
+  # YC Compliant
   Enabled: false
 
 Style/EmptyMethod:
+  # YC Compliant
   Enabled: false
 
 Style/ModuleFunction:
+  # YC Compliant
   Enabled: false
 
