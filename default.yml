@@ -1,4 +1,3 @@
-# Took this from NFR needs updating
 AllCops:
   TargetRubyVersion: 2.3
   Exclude:
