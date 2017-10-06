@@ -16,28 +16,55 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install rubocopital
-
 ## Usage
 
-TODO: Write usage instructions here
+To use shared rubocop configuration in your respective app, you should include 
+rubocopital's configuration like this:
+
+```
+  inherit_gem:
+    rubocopital: 
+      - default.yml
+```
+
+If you have specific configurations that differ from the agreed upon defaults,
+you can just add them below.
+
+```
+  inherit_gem:
+    rubocopital: 
+      - default.yml
+
+  AllCops:
+    TargetRubyVersion: 2.3
+    Exclude:
+      - 'file.rb'
+    DisplayCopNames: false
+    DisplayStyleGuide: true
+
+```
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+After checking out the repo, run `bin/setup` to install dependencies. Then, run 
+`rake spec` to run the tests. You can also run `bin/console` for an interactive 
+prompt that will allow you to experiment.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+To install this gem onto your local machine, run `bundle exec rake install`. 
+To release a new version, update the version number in `version.rb`, and then 
+run `bundle exec rake release`, which will create a git tag for the version, 
+push git commits and tags, and push the `.gem` file to 
+[rubygems.org](https://rubygems.org).
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rubocopital. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
 ## License
 
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+The gem is available as open source under the terms of the 
+[MIT License](http://opensource.org/licenses/MIT).
 
 ## Code of Conduct
 
-Everyone interacting in the Rubocopital project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/rubocopital/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Rubocopital project’s codebases, issue trackers, 
+chat rooms and mailing lists is expected to follow the 
+[code of conduct](https://gitlab.ycdev.nl/youngcapital/rubocopital/blob/master/CODE_OF_CONDUCT.md).
