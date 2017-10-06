@@ -10,7 +10,7 @@ Please make changes accordingly.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rubocopital'
+gem 'rubocopital', git: 'git@gitlab.ycdev.nl:youngcapital/rubocopital.git'
 ```
 
 And then execute:
