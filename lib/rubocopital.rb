@@ -1,4 +1,4 @@
-require "rubocopital/version"
+require 'rubocopital/version'
 
 module Rubocopital
   # Your code goes here...
