@@ -171,6 +171,14 @@ Rails/HasAndBelongsToMany:
   # YC Compliant
   Enabled: false
 
+# This cop checks that models subclass ApplicationRecord with Rails 5.0.
+Rails/ApplicationRecord:
+  Enabled: false
+
+# This cop checks that models subclass ApplicationJob with Rails 5.0.
+Rails/ApplicationJob:
+  Enabled: false
+
 Style/EmptyMethod:
   # YC Compliant
   Enabled: false
