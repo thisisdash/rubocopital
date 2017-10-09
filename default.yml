@@ -1,17 +1,17 @@
 AllCops:
   TargetRubyVersion: 2.3
   Exclude:
-    - 'db/migrate/*'
-    - 'db/seeds/*'
-    - 'db/schema.rb'
-    - 'db/seeds.rb'
-    - 'script/**/*'
-    - 'bin/**/*'
-    - 'vendor/**/*'
-    - 'test/**/*'
-    - 'features/**/*'
-    - 'Gemfile'
-    - 'Gemfile.lock'
+    - db/migrate/*
+    - db/seeds/*
+    - db/schema.rb
+    - db/seeds.rb
+    - script/**/*
+    - bin/**/*
+    - vendor/**/*
+    - test/**/*
+    - features/**/*
+    - Gemfile
+    - Gemfile.lock
   DisplayCopNames: true
   DisplayStyleGuide: true
 
@@ -53,7 +53,7 @@ Style/BlockDelimiters:
   # The `line_count_based` style enforces braces around single line blocks and
   # do..end around multi-line blocks.
   Exclude:
-  - 'spec/**/*'
+  - spec/**/*
 
 Style/ClassAndModuleChildren:
   # YC Compliant
@@ -124,6 +124,9 @@ Metrics/BlockLength:
   # YC Compliant
   CountComments: false  # count full line comments?
   Max: 50
+  Exclude:
+    - spec/**/**.rb
+    - config/routes.rb
 
 Metrics/ClassLength:
   # YC Compliant
