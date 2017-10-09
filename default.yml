@@ -7,9 +7,9 @@ AllCops:
     - 'db/seeds.rb'
     - 'script/**/*'
     - 'bin/**/*'
-    - 'lib/noxa/patches/**/*'
     - 'vendor/**/*'
-    - 'test/**/**/*'
+    - 'test/**/*'
+    - 'features/**/*'
     - 'Gemfile'
     - 'Gemfile.lock'
   DisplayCopNames: true
@@ -59,24 +59,9 @@ Style/ClassAndModuleChildren:
   # YC Compliant
   EnforcedStyle: compact
 
-Layout/DotPosition:
-  # YC Compliant
-  EnforcedStyle: leading
-  # Multi-line method chaining should be done with leading dots.
-
 Style/FrozenStringLiteralComment:
   # YC Compliant
   Enabled: false
-
-Style/HashSyntax:
-  # YC Compliant
-  EnforcedStyle: ruby19
-  # checks for 1.9 syntax (e.g. {a: 1}) for all symbol keys
-
-Layout/IndentationWidth:
-  # YC Compliant
-  Width: 2
-  # Number of spaces for each indentation level.
 
 Style/IdenticalConditionalBranches:
   # YC Compliant
@@ -86,10 +71,6 @@ Style/IdenticalConditionalBranches:
 Style/Encoding:
   # YC Compliant
   EnforcedStyle: when_needed
-
-Lint/AmbiguousBlockAssociation:
-  # YC Compliant
-  Enabled: true
 
 Style/NumericPredicate:
   # YC Compliant
@@ -108,55 +89,6 @@ Style/GlobalVars:
   Enabled: true
   AllowedVariables: [$ASSET_MODE]
   # Do not introduce global variables. (used for cucumber custom_env)
-
-Style/RegexpLiteral:
-  # YC Compliant
-  EnforcedStyle: slashes
-  Enabled: true
-  # Use // around regular expression.
-
-Style/NumericLiteralPrefix:
-  # YC Compliant
-  EnforcedOctalStyle: zero_with_o
-  SupportedOctalStyles:
-    - zero_with_o
-    - zero_only
-  Enabled: true
-  # Use 0o for octal literals.
-
-Layout/MultilineArrayBraceLayout:
-  # YC Compliant
-  EnforcedStyle: symmetrical
-
-Layout/SpaceBeforeBlockBraces:
-  # YC Compliant
-  EnforcedStyle: space
-
-Layout/SpaceAroundEqualsInParameterDefault:
-  # YC Compliant
-  EnforcedStyle: space
-
-Layout/SpaceInsideBlockBraces:
-  # YC Compliant
-  EnforcedStyle: space
-
-Layout/SpaceInsideHashLiteralBraces:
-  # YC Compliant
-  EnforcedStyle: space
-  EnforcedStyleForEmptyBraces: no_space
-
-Layout/TrailingBlankLines:
-  # YC Compliant
-  EnforcedStyle: final_newline
-
-Style/WordArray:
-  EnforcedStyle: percent
-  # percent style: %w(word1 word2)
-
-Style/SymbolArray:
-  # YC Compliant
-  EnforcedStyle: percent
-  Enabled: true
 
 Style/EachWithObject:
   # YC Compliant
@@ -179,10 +111,6 @@ Layout/MultilineOperationIndentation:
 
 Style/TrivialAccessors:
   Enabled: true
-
-Style/Lambda:
-  # YC Compliant
-  EnforcedStyle: line_count_dependent
 
 Metrics/AbcSize:
   # YC Compliant
@@ -210,11 +138,6 @@ Metrics/ModuleLength:
   # YC Compliant
   Enabled: false
 
-Metrics/ParameterLists:
-  # YC Compliant
-  Max: 5
-  CountKeywordArgs: true
-
 Documentation:
   # YC Compliant
   Enabled: false
@@ -240,12 +163,6 @@ Rails/HttpPositionalArguments:
 Rails/SkipsModelValidations:
   # YC Compliant
   Enabled: false
-
-Rails/FilePath:
-  Enabled: true
-
-Rails/Validation:
-  Enabled: true
 
 Rails/HasAndBelongsToMany:
   # YC Compliant
