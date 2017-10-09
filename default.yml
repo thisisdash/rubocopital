@@ -52,6 +52,8 @@ Style/BlockDelimiters:
   EnforcedStyle: line_count_based
   # The `line_count_based` style enforces braces around single line blocks and
   # do..end around multi-line blocks.
+  Exclude:
+  - 'spec/**/*'
 
 Style/ClassAndModuleChildren:
   # YC Compliant
@@ -167,10 +169,6 @@ Rails/Date:
   # (but not `Date.today`) which are overridden by ActiveSupport to handle current
   # time zone.
 
-Lint/AmbiguousBlockAssociation:
-  # YC Compliant
-  Enabled: true
-
 Lint/EndAlignment:
   # YC Compliant
   EnforcedStyleAlignWith: variable
@@ -244,7 +242,7 @@ Rails/SkipsModelValidations:
   Enabled: false
 
 Rails/FilePath:
-  Enabled: false
+  Enabled: true
 
 Rails/Validation:
   Enabled: true
@@ -260,4 +258,3 @@ Style/EmptyMethod:
 Style/ModuleFunction:
   # YC Compliant
   Enabled: false
-
