@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['p.deruijter@youngcapital.nl']
 
   spec.summary       = 'Shared rubocop configuration'
-  spec.description   = 'We need to have a common configuration of ruby style, 
+  spec.description   = 'We need to have a common configuration of ruby style,
                         this gem hold that.'
   spec.homepage      = 'https://gitlab.ycdev.nl/youngcapital/rubocopital'
   spec.license       = 'MIT'
@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'rubocop'
+  spec.add_runtime_dependency 'rubocop', '~> 0.49.1'
   spec.add_development_dependency 'bundler', '~> 1.15'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
