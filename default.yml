@@ -109,6 +109,9 @@ Layout/MultilineOperationIndentation:
   # YC Compliant
   EnforcedStyle: indented
 
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
 Style/TrivialAccessors:
   Enabled: true
 
