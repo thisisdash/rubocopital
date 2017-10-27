@@ -105,6 +105,9 @@ Lint/EndAlignment:
   # YC Compliant
   EnforcedStyleAlignWith: variable
 
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
 Layout/MultilineOperationIndentation:
   # YC Compliant
   EnforcedStyle: indented
