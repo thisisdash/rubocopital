@@ -23,9 +23,9 @@ To use shared rubocop configuration in your respective app, you should include
 rubocopital's configuration like this:
 
 ```
-  inherit_gem:
-    rubocopital:
-      - default.yml
+inherit_gem:
+  rubocopital:
+    - default.yml
 ```
 
 If you have specific configurations that differ from the agreed upon defaults,
