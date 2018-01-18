@@ -1,0 +1,9 @@
+stages:
+  - test
+
+test:
+  image: ruby:2.4.3
+  stage: test
+  script:
+    - bundle install
+    - bundle exec rake
