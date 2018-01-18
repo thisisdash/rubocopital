@@ -1,1 +1,4 @@
 inherits_from: default.yml
+
+Documentation:
+  Enabled: false

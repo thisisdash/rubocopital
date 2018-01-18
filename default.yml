@@ -12,6 +12,7 @@ AllCops:
     - features/**/*
     - Gemfile
     - Gemfile.lock
+    - node_modules/**/*
   DisplayCopNames: true
   DisplayStyleGuide: true
 
