@@ -13,6 +13,10 @@ AllCops:
     - Gemfile
     - Gemfile.lock
     - node_modules/**/*
+    - app/channels/application_cable/*
+    - config/environments/development.rb
+    - config/spring.rb
+    - config/application.rb
   DisplayCopNames: true
   DisplayStyleGuide: true
 
