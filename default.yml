@@ -64,10 +64,6 @@ Style/ClassAndModuleChildren:
   # YC Compliant
   EnforcedStyle: compact
 
-Style/FrozenStringLiteralComment:
-  # YC Compliant
-  Enabled: false
-
 Style/IdenticalConditionalBranches:
   # YC Compliant
   Enabled: false
