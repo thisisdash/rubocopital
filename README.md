@@ -10,12 +10,12 @@ Please make changes accordingly.
 Add this line to your application's Gemfile to include a specific version of this gem:
 
 ```ruby
-gem 'rubocopital', git: 'git@gitlab.ycdev.nl:youngcapital/rubocopital.git', require: false
+gem 'rubocopital', git: 'git@gitlab.ycdev.nl:youngcapital/rubocopital.git', tag: 0.1.5, require: false
 ```
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 ## Usage
 
