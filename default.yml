@@ -69,10 +69,6 @@ Style/IdenticalConditionalBranches:
   Enabled: false
   # Redirect_to usage in conditionals
 
-Style/Encoding:
-  # YC Compliant
-  EnforcedStyle: when_needed
-
 Style/NumericPredicate:
   # YC Compliant
   Enabled: false
