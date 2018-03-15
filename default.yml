@@ -69,6 +69,12 @@ Style/IdenticalConditionalBranches:
   Enabled: false
   # Redirect_to usage in conditionals
 
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/ExpandPathArguments:
+  Enabled: false
+
 Style/NumericPredicate:
   # YC Compliant
   Enabled: false
@@ -98,7 +104,7 @@ Rails/Date:
   # (but not `Date.today`) which are overridden by ActiveSupport to handle current
   # time zone.
 
-Lint/EndAlignment:
+Layout/EndAlignment:
   # YC Compliant
   EnforcedStyleAlignWith: variable
 

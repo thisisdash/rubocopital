@@ -1,4 +1,4 @@
-inherits_from: default.yml
+inherit_from: default.yml
 
 Documentation:
   Enabled: false

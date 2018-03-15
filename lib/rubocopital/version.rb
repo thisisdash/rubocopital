@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Rubocopital
-  VERSION = '0.1.6'.freeze
+  VERSION = '0.1.7'
 end
