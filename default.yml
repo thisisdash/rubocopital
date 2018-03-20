@@ -198,3 +198,13 @@ Style/StringLiterals:
 
 Style/StringLiteralsInInterpolation:
   Enabled: false
+
+Rails/UnknownEnv:
+  Environments:
+    - development
+    - test
+    - review
+    - staging
+    - acceptance
+    - training
+    - production
