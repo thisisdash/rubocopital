@@ -10,7 +10,7 @@ Please make changes accordingly.
 Add this line to your application's Gemfile to include a specific version of this gem:
 
 ```ruby
-gem 'rubocopital', git: 'git@gitlab.ycdev.nl:youngcapital/rubocopital.git', tag: 0.1.7, require: false
+gem 'rubocopital', git: 'git@gitlab.ycdev.nl:youngcapital/rubocopital.git', tag: '0.1.8', require: false
 ```
 
 And then execute:
@@ -38,11 +38,8 @@ you can just add them below.
 
   AllCops:
     TargetRubyVersion: 2.3
-    Exclude:
-      - 'file.rb'
     DisplayCopNames: false
     DisplayStyleGuide: true
-
 ```
 
 ## Development

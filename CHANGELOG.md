@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ---
 
+## [0.1.8] - 20 March 2018
+
+### Added
+
+- Re-enable `Style/FrozenStringLiteralComment` cop to be YC compliant
+- Add `training` and `review` as valid environments for the `Rails/UnknownEnv` cop
+
 ## [0.1.7] - 15 March 2018
 
 ### Added
