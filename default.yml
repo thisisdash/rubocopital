@@ -29,6 +29,7 @@ Layout/AlignHash:
   # key - left alignment of keys
   #   a: 0
   #   bb: 1
+  # YC Compliant
   EnforcedLastArgumentHashStyle: ignore_implicit
   # ignore_implicit - Ignore only implicit hashes.
   #   Accepts:
@@ -70,7 +71,8 @@ Style/IdenticalConditionalBranches:
   # Redirect_to usage in conditionals
 
 Style/FrozenStringLiteralComment:
-  Enabled: false
+  # Ensure default is followed
+  Enabled: true
 
 Style/ExpandPathArguments:
   Enabled: false
@@ -194,9 +196,11 @@ Style/ModuleFunction:
   Enabled: false
 
 Style/StringLiterals:
+  # YC Compliant
   Enabled: false
 
 Style/StringLiteralsInInterpolation:
+  # YC Compliant
   Enabled: false
 
 Rails/UnknownEnv:
