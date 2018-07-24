@@ -84,11 +84,6 @@ Style/NumericPredicate:
   # Use .zero? instead of == 0
   # Use .nonzero? instead of != 0.
 
-Style/MethodMissing:
-  # YC Compliant
-  Enabled: false
-  # When using method_missing, define respond_to_missing?. (used in ACL)
-
 Style/GlobalVars:
   # YC Compliant
   Enabled: true
@@ -97,6 +92,9 @@ Style/GlobalVars:
 
 Style/EachWithObject:
   # YC Compliant
+  Enabled: false
+
+Style/UnpackFirst:
   Enabled: false
 
 Rails/Date:
