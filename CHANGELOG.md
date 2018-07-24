@@ -8,6 +8,37 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ---
 
+## [0.2.0] - 24 July 2018
+
+### Added
+
+- Added the cop `Layout/ClosingHeredocIndentation`
+- Added the cop `Layout/LeadingBlankLines`
+- Added the cop `Lint/ErbNewArguments`
+- Added the cop `Lint/SafeNavigationConsistency`
+- Added the cop `Lint/SplatKeywordArguments`
+- Added the cop `Performance/InefficientHashSearch`
+- Added the cop `Performance/UnneededSort`
+- Added the cop `Rails/AssertNot`
+- Added the cop `Rails/BulkChangeTable`
+- Added the cop `Rails/HttpStatus`
+- Added the cop `Rails/RefuteMethods`
+- Added the cop `Style/AccessModifierDeclarations`
+- Added the cop `Style/MethodMissingSuper`
+- Added the cop `Style/MissingRespondToMissing`
+- Added the cop `Style/UnneededCondition`
+
+### Disabled
+
+- Disabled the cop `Style/UnpackFirst`
+
+### Changed
+
+- Bumped rubocop to version `0.57.2`
+- `Style/MethodMissing` is now enabled
+
+---
+
 ## [0.1.8] - 20 March 2018
 
 ### Added

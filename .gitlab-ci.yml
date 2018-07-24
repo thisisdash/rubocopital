@@ -1,8 +1,36 @@
 stages:
   - test
 
-test:
-  image: ruby:2.4.3
+test_ruby_2_2:
+  image: ruby:2.2.10
+  stage: test
+  script:
+    - bundle install
+    - bundle exec rake
+
+test_ruby_2_3:
+  image: ruby:2.3.7
+  stage: test
+  script:
+    - bundle install
+    - bundle exec rake
+
+test_ruby_2_4:
+  image: ruby:2.4.4
+  stage: test
+  script:
+    - bundle install
+    - bundle exec rake
+
+test_ruby_2_5:
+  image: ruby:2.5.1
+  stage: test
+  script:
+    - bundle install
+    - bundle exec rake
+
+test_ruby_2_6:
+  image: ruby:2.6-rc
   stage: test
   script:
     - bundle install
