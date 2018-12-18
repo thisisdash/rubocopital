@@ -147,6 +147,12 @@ Metrics/ModuleLength:
   # YC Compliant
   Enabled: false
 
+Performance/ChainArrayAllocation:
+  Enabled: true
+
+Performance/OpenStruct:
+  Enabled: true
+
 Documentation:
   # YC Compliant
   Enabled: false
@@ -189,9 +195,15 @@ Style/EmptyMethod:
   # YC Compliant
   Enabled: false
 
+Style/IpAddresses:
+  Enabled: true
+
 Style/ModuleFunction:
   # YC Compliant
   Enabled: false
+
+Style/MultilineMethodSignature:
+  Enabled: true
 
 Style/StringLiterals:
   # YC Compliant
