@@ -10,7 +10,7 @@ Please make changes accordingly.
 Add this line to your application's Gemfile under the `development` and `test` groups to include a specific version of this gem:
 
 ```ruby
-gem 'rubocopital', git: 'git@gitlab.ycdev.nl:youngcapital/rubocopital.git', tag: '0.1.8', require: false
+gem 'rubocopital', git: 'git@gitlab.ycdev.nl:youngcapital/rubocopital.git', tag: '0.3.0', require: false
 ```
 
 And then execute:
