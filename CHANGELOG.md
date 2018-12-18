@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- Added the cop `Performance/ChainArrayAllocation`
+- Added the cop `Performance/OpenStruct`
+- Added the cop `Style/IpAddresses`
+- Added the cop `Style/MultilineMethodSignature`
+
+### Changed
+- Bumped rubocop to version `0.61.1`
+
 ---
 
 ## [0.2.0] - 24 July 2018
