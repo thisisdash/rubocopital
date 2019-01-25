@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.3.1] - 25 January 2019
+
+### Added
+
+- Added the cop `Rails/BelongsTo`
+- Added the cop `Rails/IgnoredSkipActionFilterOption`
+- Added the cop `Rails/LinkToBlank`
+- Added the cop `Style/DisjunctiveAssignmentInConstructor`
+
+### Changed
+- Bumped rubocop to version `0.63.0`
+
 ---
 
 ## [0.3.0] - 18 December 2018
