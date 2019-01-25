@@ -191,6 +191,15 @@ Rails/ApplicationRecord:
 Rails/ApplicationJob:
   Enabled: false
 
+Rails/BelongsTo:
+  Enabled: true
+
+Rails/IgnoredSkipActionFilterOption:
+  Enabled: true
+
+Rails/LinkToBlank:
+  Enabled: true
+
 Style/EmptyMethod:
   # YC Compliant
   Enabled: false
@@ -212,6 +221,9 @@ Style/StringLiterals:
 Style/StringLiteralsInInterpolation:
   # YC Compliant
   Enabled: false
+
+Lint/DisjunctiveAssignmentInConstructor:
+  Enabled: true
 
 Rails/UnknownEnv:
   Environments:
