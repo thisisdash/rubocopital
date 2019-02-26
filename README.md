@@ -10,7 +10,7 @@ Please make changes accordingly.
 Add this line to your application's Gemfile under the `development` and `test` groups to include a specific version of this gem:
 
 ```ruby
-gem 'rubocopital', git: 'git@gitlab.ycdev.nl:youngcapital/rubocopital.git', tag: '0.3.1', require: false
+gem 'rubocopital', git: 'git@gitlab.ycdev.nl:youngcapital/rubocopital.git', tag: '0.4.0', require: false
 ```
 
 And then execute:
@@ -40,6 +40,15 @@ you can just add them below.
     TargetRubyVersion: 2.3
     DisplayCopNames: false
     DisplayStyleGuide: true
+```
+
+If your project uses RSpec, please add the `rubocop-rspec` config as well.
+
+```
+inherit_gem:
+  rubocopital:
+    - default.yml
+    - rubocop-rspec.yml
 ```
 
 ## Development
