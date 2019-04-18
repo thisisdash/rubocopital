@@ -48,7 +48,7 @@ If your project uses RSpec, please add the `rubocop-rspec` config as well.
 inherit_gem:
   rubocopital:
     - default.yml
-    - rubocop-rspec.yml
+    - .rubocop-rspec.yml
 ```
 
 ## Development
