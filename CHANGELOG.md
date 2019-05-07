@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 - Bumped rubocop to version `0.67.2`
 
-## [0.4.0] - 8 April 2019
+## [0.5.0] - 8 April 2019
 
 ### Added
 
