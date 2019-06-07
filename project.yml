@@ -1,0 +1,5 @@
+configuration_version: 1
+name: "rubocopital"
+type: "ruby-library"
+lead_developer: "Martijn Bleeker"
+product_lead: "Ivan Zarea"
