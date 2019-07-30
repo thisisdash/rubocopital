@@ -234,3 +234,6 @@ Rails/UnknownEnv:
     - acceptance
     - training
     - production
+
+Rails/LexicallyScopedActionFilter:
+  Enabled: false

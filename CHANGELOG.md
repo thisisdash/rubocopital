@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.5.1] - 30 July 2019
+
+### Disabled
+
+- Disabled the cop `Rails/LexicallyScopedActionFilter`
+
+---
+
 ## [0.5.0] - 7 May 2019
 
 ### Changed
