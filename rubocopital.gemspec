@@ -7,13 +7,13 @@ require 'rubocopital/version'
 Gem::Specification.new do |spec|
   spec.name          = 'rubocopital'
   spec.version       = Rubocopital::VERSION
-  spec.authors       = ['Peter de Ruijter']
-  spec.email         = ['p.deruijter@youngcapital.nl']
+  spec.authors       = ['Marcel Eeken']
+  spec.email         = ['m.eeken@youngcapital.nl']
 
   spec.summary       = 'Shared rubocop configuration'
   spec.description   = 'We need to have a common configuration of ruby style,
                         this gem hold that.'
-  spec.homepage      = 'https://gitlab.ycdev.nl/youngcapital/rubocopital'
+  spec.homepage      = 'https://github.com/youngcapital/rubocopital'
   spec.license       = 'MIT'
 
   if spec.respond_to?(:metadata)

@@ -1,9 +1,6 @@
 # Rubocopital
 
 This is the common configuration for ruby-style checks by [Rubocop](https://github.com/bbatsov/rubocop).
-All settings in `default.yml` are checked against
-[this spreadsheet](https://docs.google.com/spreadsheets/d/1sTdStk98SjftcDGw4jkQMzwwFOEzpx2XWwx_K32DziI/edit?ts=59c38873#gid=515557821).
-Please make changes accordingly.
 
 ## Installation
 
