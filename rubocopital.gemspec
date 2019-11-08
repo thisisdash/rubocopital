@@ -17,7 +17,11 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
 
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata['allowed_push_host'] = "https://rubygems.org"
+
+    spec.metadata['hompeage_uri'] = spec.homepage
+    spec.metadata['source_code_uri'] = spec.homepage
+    spec.metadata['changelog_uri'] = 'https://github.com/youngcapital/rubocopital/blob/master/CHANGELOG.md'
   else
     raise 'RubyGems 2.0 or newer is required to protect against ' \
       'public gem pushes.'
