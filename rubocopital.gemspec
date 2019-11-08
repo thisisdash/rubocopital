@@ -7,8 +7,8 @@ require 'rubocopital/version'
 Gem::Specification.new do |spec|
   spec.name          = 'rubocopital'
   spec.version       = Rubocopital::VERSION
-  spec.authors       = ['Marcel Eeken']
-  spec.email         = ['m.eeken@youngcapital.nl']
+  spec.authors       = ['Marcel Eeken', "Martijn Bleeker"]
+  spec.email         = ['m.eeken@youngcapital.nl', "martijn@thebleacher.com"]
 
   spec.summary       = 'Shared rubocop configuration'
   spec.description   = 'We need to have a common configuration of ruby style,
