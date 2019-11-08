@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
 
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "https://rubygems.org"
+    spec.metadata['allowed_push_host'] = ["https://rubygems.org", "https://rubygems.pkg.github.com"]
 
     spec.metadata['hompeage_uri'] = spec.homepage
     spec.metadata['source_code_uri'] = spec.homepage
