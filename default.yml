@@ -90,12 +90,6 @@ Style/EachWithObject:
 Style/UnpackFirst:
   Enabled: false
 
-Rails/Date:
-  EnforcedStyle: flexible
-  # The value `flexible` allows usage of `Date.current`, `Date.yesterday`, etc
-  # (but not `Date.today`) which are overridden by ActiveSupport to handle current
-  # time zone.
-
 Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
 
@@ -141,42 +135,9 @@ Metrics/ModuleLength:
 Style/Documentation:
   Enabled: false
 
-Rails:
-  Enabled: true
 
 Bundler/OrderedGems:
   TreatCommentsAsGroupSeparators: true
-
-Rails/OutputSafety:
-  Enabled: false
-  # Prefer safe_join instead of html_save
-
-Rails/HttpPositionalArguments:
-  Enabled: false
-  # prefer get(:new, params: {}) instead of get(:new, {})
-
-Rails/SkipsModelValidations:
-  Enabled: false
-
-Rails/HasAndBelongsToMany:
-  Enabled: false
-
-# This cop checks that models subclass ApplicationRecord with Rails 5.0.
-Rails/ApplicationRecord:
-  Enabled: false
-
-# This cop checks that models subclass ApplicationJob with Rails 5.0.
-Rails/ApplicationJob:
-  Enabled: false
-
-Rails/BelongsTo:
-  Enabled: true
-
-Rails/IgnoredSkipActionFilterOption:
-  Enabled: true
-
-Rails/LinkToBlank:
-  Enabled: true
 
 Style/EmptyMethod:
   Enabled: false
@@ -211,16 +172,3 @@ Lint/SafeNavigationWithEmpty:
 
 Lint/ToJSON:
   Enabled: true
-
-Rails/UnknownEnv:
-  Environments:
-    - development
-    - test
-    - review
-    - staging
-    - acceptance
-    - training
-    - production
-
-Rails/LexicallyScopedActionFilter:
-  Enabled: false
