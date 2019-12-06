@@ -1,3 +1,5 @@
+inherit_from: .rubocop-performance.yml
+
 AllCops:
   TargetRubyVersion: 2.3
   Exclude:
@@ -146,12 +148,6 @@ Metrics/MethodLength:
 Metrics/ModuleLength:
   # YC Compliant
   Enabled: false
-
-Performance/ChainArrayAllocation:
-  Enabled: true
-
-Performance/OpenStruct:
-  Enabled: true
 
 Documentation:
   # YC Compliant
