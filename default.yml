@@ -31,7 +31,6 @@ Layout/AlignHash:
   # key - left alignment of keys
   #   a: 0
   #   bb: 1
-  # YC Compliant
   EnforcedLastArgumentHashStyle: ignore_implicit
   # ignore_implicit - Ignore only implicit hashes.
   #   Accepts:
@@ -42,7 +41,6 @@ Layout/AlignHash:
   #       b: 2})
 
 Layout/AlignParameters:
-  # YC Compliant
   EnforcedStyle: with_fixed_indentation
   # The `with_fixed_indentation` style aligns the following lines with one
   # level of indentation relative to the start of the line with the method call.
@@ -51,12 +49,10 @@ Layout/AlignParameters:
   #       b)
 
 Style/AndOr:
-  # YC Compliant
   EnforcedStyle: conditionals
   # `and` and `or` are banned only in conditionals (conditionals)
 
 Style/BlockDelimiters:
-  # YC Compliant
   EnforcedStyle: line_count_based
   # The `line_count_based` style enforces braces around single line blocks and
   # do..end around multi-line blocks.
@@ -64,11 +60,9 @@ Style/BlockDelimiters:
   - spec/**/*
 
 Style/ClassAndModuleChildren:
-  # YC Compliant
   EnforcedStyle: compact
 
 Style/IdenticalConditionalBranches:
-  # YC Compliant
   Enabled: false
   # Redirect_to usage in conditionals
 
@@ -80,34 +74,29 @@ Style/ExpandPathArguments:
   Enabled: false
 
 Style/NumericPredicate:
-  # YC Compliant
   Enabled: false
   # Use .positive? instead of > 0
   # Use .zero? instead of == 0
   # Use .nonzero? instead of != 0.
 
 Style/GlobalVars:
-  # YC Compliant
   Enabled: true
   AllowedVariables: [$ASSET_MODE]
   # Do not introduce global variables. (used for cucumber custom_env)
 
 Style/EachWithObject:
-  # YC Compliant
   Enabled: false
 
 Style/UnpackFirst:
   Enabled: false
 
 Rails/Date:
-  # YC Compliant
   EnforcedStyle: flexible
   # The value `flexible` allows usage of `Date.current`, `Date.yesterday`, etc
   # (but not `Date.today`) which are overridden by ActiveSupport to handle current
   # time zone.
 
 Layout/EndAlignment:
-  # YC Compliant
   EnforcedStyleAlignWith: variable
 
 Layout/HeredocArgumentClosingParenthesis:
@@ -121,22 +110,18 @@ Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
 Layout/MultilineOperationIndentation:
-  # YC Compliant
   EnforcedStyle: indented
 
 Style/TrivialAccessors:
   Enabled: true
 
 Metrics/AbcSize:
-  # YC Compliant
   Enabled: false
 
 Metrics/LineLength:
-  # YC Compliant
   Max: 120
 
 Metrics/BlockLength:
-  # YC Compliant
   CountComments: false  # count full line comments?
   Max: 50
   Exclude:
@@ -144,46 +129,36 @@ Metrics/BlockLength:
     - config/routes.rb
 
 Metrics/ClassLength:
-  # YC Compliant
   Enabled: false
 
 Metrics/MethodLength:
-  # YC Compliant
   Max: 30
   Severity: warning
 
 Metrics/ModuleLength:
-  # YC Compliant
   Enabled: false
 
-Documentation:
-  # YC Compliant
+Style/Documentation:
   Enabled: false
 
 Rails:
-  # YC Compliant
   Enabled: true
 
 Bundler/OrderedGems:
-  # YC Compliant
   TreatCommentsAsGroupSeparators: true
 
 Rails/OutputSafety:
-  # YC Compliant
   Enabled: false
   # Prefer safe_join instead of html_save
 
 Rails/HttpPositionalArguments:
-  # YC Compliant
   Enabled: false
   # prefer get(:new, params: {}) instead of get(:new, {})
 
 Rails/SkipsModelValidations:
-  # YC Compliant
   Enabled: false
 
 Rails/HasAndBelongsToMany:
-  # YC Compliant
   Enabled: false
 
 # This cop checks that models subclass ApplicationRecord with Rails 5.0.
@@ -204,14 +179,12 @@ Rails/LinkToBlank:
   Enabled: true
 
 Style/EmptyMethod:
-  # YC Compliant
   Enabled: false
 
 Style/IpAddresses:
   Enabled: true
 
 Style/ModuleFunction:
-  # YC Compliant
   Enabled: false
 
 Style/MultilineMethodSignature:
@@ -222,11 +195,9 @@ Style/NegatedUnless:
   EnforcedStyle: both
 
 Style/StringLiterals:
-  # YC Compliant
   Enabled: false
 
 Style/StringLiteralsInInterpolation:
-  # YC Compliant
   Enabled: false
 
 Lint/DisjunctiveAssignmentInConstructor:
