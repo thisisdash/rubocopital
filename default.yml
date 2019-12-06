@@ -110,6 +110,13 @@ Layout/EndAlignment:
   # YC Compliant
   EnforcedStyleAlignWith: variable
 
+Layout/HeredocArgumentClosingParenthesis:
+  Enabled: true
+
+Layout/IndentFirstParameter:
+  Enabled: true
+  EnforcedStyle: consistent
+
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
@@ -210,6 +217,10 @@ Style/ModuleFunction:
 Style/MultilineMethodSignature:
   Enabled: true
 
+Style/NegatedUnless:
+  Enabled: true
+  EnforcedStyle: both
+
 Style/StringLiterals:
   # YC Compliant
   Enabled: false
@@ -219,6 +230,15 @@ Style/StringLiteralsInInterpolation:
   Enabled: false
 
 Lint/DisjunctiveAssignmentInConstructor:
+  Enabled: true
+
+Lint/HeredocMethodCallPosition:
+  Enabled: true
+
+Lint/SafeNavigationWithEmpty:
+  Enabled: true
+
+Lint/ToJSON:
   Enabled: true
 
 Rails/UnknownEnv:
