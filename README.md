@@ -25,6 +25,8 @@ inherit_gem:
     - default.yml
 ```
 
+`default.yml` does also require the `rubocop-performance` configuration.
+
 If you have specific configurations that differ from the agreed upon defaults,
 you can just add them below.
 
@@ -45,6 +47,16 @@ If your project uses RSpec, please add the `rubocop-rspec` config as well.
 inherit_gem:
   rubocopital:
     - default.yml
+    - .rubocop-rspec.yml
+```
+
+The same applies to Rails.
+
+```
+inherit_gem:
+  rubocopital:
+    - default.yml
+    - .rubocop-rails.yml
     - .rubocop-rspec.yml
 ```
 
