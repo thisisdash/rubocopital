@@ -5,5 +5,5 @@ require:
 
 inherit_from: default.yml
 
-Documentation:
+Style/Documentation:
   Enabled: false
