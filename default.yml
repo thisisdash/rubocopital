@@ -22,7 +22,7 @@ AllCops:
   DisplayCopNames: true
   DisplayStyleGuide: true
 
-Layout/AlignHash:
+Layout/HashAlignment:
   EnforcedHashRocketStyle: key
   # key - left alignment of keys
   #   'a' => 2
@@ -40,7 +40,7 @@ Layout/AlignHash:
   #     function({a: 1,
   #       b: 2})
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
   # The `with_fixed_indentation` style aligns the following lines with one
   # level of indentation relative to the start of the line with the method call.
@@ -96,7 +96,7 @@ Layout/EndAlignment:
 Layout/HeredocArgumentClosingParenthesis:
   Enabled: true
 
-Layout/IndentFirstParameter:
+Layout/FirstParameterIndentation:
   Enabled: true
   EnforcedStyle: consistent
 
