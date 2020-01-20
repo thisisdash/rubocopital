@@ -3,8 +3,14 @@ require: rubocop-rails
 Rails:
   Enabled: true
 
+Rails/ApplicationController:
+  Enabled: true
+
 Rails/ApplicationJob:
   Enabled: false
+
+Rails/ApplicationMailer:
+  Enabled: true
 
 Rails/ApplicationRecord:
   Enabled: false
@@ -14,6 +20,9 @@ Rails/BelongsTo:
 
 Rails/Date:
   EnforcedStyle: flexible
+
+Rails/EnumHash:
+  Enabled: true
 
 Rails/HasAndBelongsToMany:
   Enabled: false
@@ -32,6 +41,12 @@ Rails/LinkToBlank:
 
 Rails/OutputSafety:
   Enabled: false
+
+Rails/RakeEnvironment:
+  Enabled: false
+
+Rails/SafeNavigationWithBlank:
+  Enabled: true
 
 Rails/SkipsModelValidations:
   Enabled: false
