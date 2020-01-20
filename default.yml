@@ -142,6 +142,10 @@ Bundler/OrderedGems:
 Style/EmptyMethod:
   Enabled: false
 
+Style/FloatDivision:
+  Enabled: true
+  EnforcedStyle: single_coerce
+
 Style/IpAddresses:
   Enabled: true
 
@@ -149,6 +153,9 @@ Style/ModuleFunction:
   Enabled: false
 
 Style/MultilineMethodSignature:
+  Enabled: true
+
+Style/MultilineWhenThen:
   Enabled: true
 
 Style/NegatedUnless:
@@ -170,5 +177,11 @@ Lint/HeredocMethodCallPosition:
 Lint/SafeNavigationWithEmpty:
   Enabled: true
 
+Lint/SendWithMixinArgument:
+  Enabled: true
+
 Lint/ToJSON:
+  Enabled: true
+
+Gemspec/RubyVersionGlobalsUsage:
   Enabled: true

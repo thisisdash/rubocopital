@@ -13,6 +13,9 @@ FactoryBot/CreateList:
   Enabled: true
   EnforcedStyle: create_list
 
+FactoryBot/FactoryClassName:
+  Enabled: true
+
 Rails/HttpStatus:
   Enabled: true
   EnforcedStyle: symbolic
@@ -38,6 +41,9 @@ RSpec/BeEql:
 RSpec/BeforeAfterAll:
   Enabled: true
 
+RSpec/ContextMethod:
+  Enabled: true
+
 RSpec/ContextWording:
   Enabled: true
 
@@ -53,6 +59,13 @@ RSpec/DescribedClass:
 
 RSpec/DescribeMethod:
   Enabled: true
+
+RSpec/Dialect:
+  Enabled: false
+
+RSpec/EmptyLineAfterExample:
+  Enabled: true
+  AllowConsecutiveOneLiners: true
 
 RSpec/EmptyExampleGroup:
   Enabled: true
@@ -107,6 +120,9 @@ RSpec/HookArgument:
 RSpec/HooksBeforeExamples:
   Enabled: true
 
+RSpec/ImplicitBlockExpectation:
+  Enabled: true
+
 RSpec/ImplicitExpect:
   Enabled: true
   EnforcedStyle: is_expected
@@ -133,6 +149,9 @@ RSpec/IteratedExpectation:
   Enabled: true
 
 RSpec/LeadingSubject:
+  Enabled: true
+
+RSpec/LeakyConstantDeclaration:
   Enabled: true
 
 RSpec/LetBeforeExamples:

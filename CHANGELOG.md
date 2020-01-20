@@ -6,6 +6,35 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.6.0] - 20 January 2020
+
+- Updated rubocop gem to `0.77.0`
+- Updated rubocop-performance gem to `1.5.1`
+- Added rubocop-rails gem version `2.4.0`
+
+- Added Rails/ApplicationController
+- Added Rails/ApplicationMailer
+- Added Rails/EnumHash
+- Added Rails/SafeNavigationWithBlank
+- Added FactoryBot/FactoryClassNam
+- Added RSpec/ContextMethod
+- Added RSpec/EmptyLineAfterExample: with AllowConsecutiveOneLiners: true
+- Added RSpec/ImplicitBlockExpectation
+- Added RSpec/LeakyConstantDeclaration
+- Added Style/FloatDivision: with EnforcedStyle: single_coerce
+- Added Style/MultilineWhenThen
+- Added Lint/SendWithMixinArgument
+- Added Gemspec/RubyVersionGlobalsUsage
+
+- Disabled Rails/RakeEnvironment
+- Disabled RSpec/Dialect
+
+- Renamed Layout/AlignHash to Layout/HashAlignment
+- Renamed Layout/AlignParameters to Layout/ParameterAlignment
+- Renamed Layout/IndentFirstParameter to Layout/FirstParameterIndentation
+
+---
+
 ## [0.5.1] - 30 July 2019
 
 ### Disabled
