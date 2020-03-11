@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.6.1] - 11 March 2020
+
+- Bumped rake dependency to a higher version to mitigate CVE-2020-8130
+
 ## [0.6.0] - 20 January 2020
 
 - Updated rubocop gem to `0.77.0`
