@@ -5,3 +5,36 @@ Performance/ChainArrayAllocation:
 
 Performance/OpenStruct:
   Enabled: true
+
+Performance/Squeeze:
+  Enabled: true
+
+Performance/SortReverse:
+  Enabled: true
+
+Performance/ReverseFirst:
+  Enabled: true
+
+Performance/RedundantStringChars:
+  Enabled: true
+
+Performance/RedundantSortBlock:
+  Enabled: true
+
+Performance/IoReadlines:
+  Enabled: true
+
+Performance/ReverseFirst:
+  Enabled: true
+
+Performance/DeleteSuffix:
+  Enabled: true
+
+Performance/BindCall:
+  Enabled: true
+
+Performance/BigDecimalWithNumericArgument:
+  Enabled: true
+
+Performance/DeleteSuffix:
+  Enabled: true

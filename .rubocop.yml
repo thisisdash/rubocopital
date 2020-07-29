@@ -7,3 +7,33 @@ inherit_from: default.yml
 
 Style/Documentation:
   Enabled: false
+
+Style/SlicingWithRange:
+  Enabled: true
+
+Style/RedundantRegexpEscape:
+  Enabled: true
+
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+
+Style/RedundantFetchBlock:
+  Enabled: true
+
+Style/RedundantAssignment:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/ExponentialNotation:
+  Enabled: true
+
+Style/BisectedAttrAccessor:
+  Enabled: true
+
+Style/AccessorGrouping:
+  Enabled: true

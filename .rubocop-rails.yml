@@ -51,6 +51,43 @@ Rails/SafeNavigationWithBlank:
 Rails/SkipsModelValidations:
   Enabled: false
 
+Rails/UniqueValidationWithoutIndex:
+  Enabled: true
+
+Rails/RenderPlainText:
+  Enabled: true
+
+Rails/RenderInline:
+  Enabled: true
+
+Rails/RedundantForeignKey:
+  Enabled: true
+
+Rails/PluckInWhere:
+  Enabled: true
+
+Rails/Pluck:
+  Enabled: true
+
+Rails/Pick:
+  Enabled: true
+
+Rails/NegateInclude:
+  Enabled: true
+
+Rails/MailerName:
+  Enabled: true
+
+Rails/FindById:
+  Enabled: true
+
+Rails/ContentTag:
+  Enabled: true
+
+Rails/MatchRoute:
+  Enabled: true
+
+
 Rails/UnknownEnv:
   Environments:
     - development

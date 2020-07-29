@@ -6,6 +6,42 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.7.0] - 29 July 2020
+
+- Added Lint/RaiseException
+- Added Lint/MixedRegexpCaptureTypes
+- Added Lint/DeprecatedOpenSSLConstant
+
+- Added Performance/Squeeze
+- Added Performance/SortReverse
+- Added Performance/ReverseFirst
+- Added Performance/RedundantStringChars
+- Added Performance/RedundantSortBlock
+- Added Performance/IoReadlines
+- Added Performance/ReverseFirst
+- Added Performance/DeleteSuffix
+- Added Performance/BindCall
+- Added Performance/BigDecimalWithNumericArgument
+- Added Performance/DeleteSuffix
+
+- Added RSpec/RepeatedExampleGroupDescription
+- Added RSpec/VariableName
+- Added RSpec/VariableDefinition
+- Added RSpec/RepeatedExampleGroupBody
+- Added RSpec/EmptyHook
+- Added RSpec/RepeatedExampleGroupBody
+
+- Added Style/SlicingWithRange
+- Added Style/RedundantRegexpEscape
+- Added Style/RedundantRegexpCharacterClass
+- Added Style/RedundantFetchBlock
+- Added Style/RedundantAssignment
+- Added Style/HashTransformValues
+- Added Style/HashEachMethods
+- Added Style/ExponentialNotation
+- Added Style/BisectedAttrAccessor
+- Added Style/AccessorGrouping
+
 ## [0.6.1] - 11 March 2020
 
 - Bumped rake dependency to a higher version to mitigate CVE-2020-8130

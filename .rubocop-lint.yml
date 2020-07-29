@@ -1,0 +1,10 @@
+require: rubocop-lint
+
+Lint/RaiseException:
+  enabled: true
+
+Lint/MixedRegexpCaptureTypes:
+  enabled: true
+
+Lint/DeprecatedOpenSSLConstant:
+  enabled: true
