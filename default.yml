@@ -1,7 +1,7 @@
 inherit_from: .rubocop-performance.yml
 
 AllCops:
-  TargetRubyVersion: 2.3
+  TargetRubyVersion: 2.6
   Exclude:
     - db/migrate/*
     - db/seeds/*
@@ -100,6 +100,9 @@ Layout/FirstParameterIndentation:
   Enabled: true
   EnforcedStyle: consistent
 
+Layout/LineLength:
+  Max: 120
+
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
@@ -111,9 +114,6 @@ Style/TrivialAccessors:
 
 Metrics/AbcSize:
   Enabled: false
-
-Metrics/LineLength:
-  Max: 120
 
 Metrics/BlockLength:
   CountComments: false  # count full line comments?
@@ -185,3 +185,6 @@ Lint/ToJSON:
 
 Gemspec/RubyVersionGlobalsUsage:
   Enabled: true
+
+Lint/NonDeterministicRequireOrder:
+  Enabled: false

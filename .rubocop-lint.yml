@@ -1,10 +1,13 @@
 require: rubocop-lint
 
 Lint/RaiseException:
-  enabled: true
+  Enabled: true
 
 Lint/MixedRegexpCaptureTypes:
-  enabled: true
+  Enabled: true
 
 Lint/DeprecatedOpenSSLConstant:
-  enabled: true
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true

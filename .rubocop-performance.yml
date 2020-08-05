@@ -24,9 +24,6 @@ Performance/RedundantSortBlock:
 Performance/IoReadlines:
   Enabled: true
 
-Performance/ReverseFirst:
-  Enabled: true
-
 Performance/DeleteSuffix:
   Enabled: true
 
@@ -34,7 +31,4 @@ Performance/BindCall:
   Enabled: true
 
 Performance/BigDecimalWithNumericArgument:
-  Enabled: true
-
-Performance/DeleteSuffix:
   Enabled: true

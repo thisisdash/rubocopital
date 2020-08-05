@@ -264,6 +264,3 @@ RSpec/RepeatedExampleGroupBody:
 
 RSpec/EmptyHook:
   Enabled: true
-
-RSpec/RepeatedExampleGroupBody:
-  Enabled: true

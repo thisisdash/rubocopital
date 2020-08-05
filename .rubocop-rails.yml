@@ -1,5 +1,34 @@
 require: rubocop-rails
 
+- Layout/EmptyLinesAroundAttributeAccessor (0.83)
+ - Layout/SpaceAroundMethodCallOperator (0.82)
+ - Lint/DeprecatedOpenSSLConstant (0.84)
+ - Lint/DuplicateElsifCondition (0.88)
+ - Lint/MixedRegexpCaptureTypes (0.85)
+ - Lint/RaiseException (0.81)
+ - Lint/StructNewOverride (0.81)
+ - Style/AccessorGrouping (0.87)
+ - Style/ArrayCoercion (0.88)
+ - Style/BisectedAttrAccessor (0.87)
+ - Style/CaseLikeIf (0.88)
+ - Style/ExponentialNotation (0.82)
+ - Style/HashAsLastArrayItem (0.88)
+ - Style/HashEachMethods (0.80)
+ - Style/HashLikeCase (0.88)
+ - Style/HashTransformKeys (0.80)
+ - Style/HashTransformValues (0.80)
+ - Style/RedundantAssignment (0.87)
+ - Style/RedundantFetchBlock (0.86)
+ - Style/RedundantFileExtensionInRequire (0.88)
+ - Style/RedundantRegexpCharacterClass (0.85)
+ - Style/RedundantRegexpEscape (0.85)
+ - Style/SlicingWithRange (0.83)
+ - Performance/AncestorsInclude (1.7)
+ - Performance/StringInclude (1.7)
+ - Rails/ActiveRecordCallbacksOrder (2.7)
+ - Rails/Inquiry (2.7)
+ - Rails/WhereExists (2.7)
+
 Rails:
   Enabled: true
 
@@ -86,6 +115,12 @@ Rails/ContentTag:
 
 Rails/MatchRoute:
   Enabled: true
+
+Rails/ShortI18n:
+  Enabled: true
+
+Rails/PluckId:
+  Enabled: false
 
 
 Rails/UnknownEnv:
