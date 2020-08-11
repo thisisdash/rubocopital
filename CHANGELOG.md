@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [1.7.0] - 10 August 2020
+## [0.7.0] - 10 August 2020
 
 - Added Rails/ActiveRecordCallbacksOrder
 - Added Rails/Inquiry
