@@ -6,12 +6,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [1.7.0] - 29 July 2020
+## [1.7.0] - 10 August 2020
+
+- Added Rails/ActiveRecordCallbacksOrder
+- Added Rails/Inquiry
+- Added Rails/WhereExists
 
 - Added Lint/RaiseException
 - Added Lint/MixedRegexpCaptureTypes
 - Added Lint/DeprecatedOpenSSLConstant
+- Added Lint/DuplicateElsifCondition
+- Added Lint/MixedRegexpCaptureTypes
 
+- Added Performance/AncestorsInclude
+- Added Performance/StringInclude
 - Added Performance/Squeeze
 - Added Performance/SortReverse
 - Added Performance/ReverseFirst
