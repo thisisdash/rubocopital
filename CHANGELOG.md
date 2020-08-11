@@ -225,7 +225,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - Bumped rubocop to version `0.57.2`
-- `Style/MethodMissing` is now Enabled
+- `Style/MethodMissing` is now enabled
 
 ---
 
