@@ -93,6 +93,14 @@ Rails/ShortI18n:
 Rails/PluckId:
   Enabled: false
 
+Rails/ActiveRecordCallbacksOrder:
+  Enabled: true
+
+Rails/Inquiry:
+  Enabled: true
+
+Rails/WhereExists:
+  Enabled: true
 
 Rails/UnknownEnv:
   Environments:
