@@ -249,3 +249,18 @@ RSpec/VoidExpect:
 
 RSpec/Yield:
   Enabled: true
+
+RSpec/RepeatedExampleGroupDescription:
+  Enabled: true
+
+RSpec/VariableName:
+  Enabled: true
+
+RSpec/VariableDefinition:
+  Enabled: true
+
+RSpec/RepeatedExampleGroupBody:
+  Enabled: true
+
+RSpec/EmptyHook:
+  Enabled: true

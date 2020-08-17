@@ -1,7 +1,40 @@
 require: rubocop-performance
 
+Performance/AncestorsInclude:
+  Enabled: true
+
+Performance/StringInclude:
+  Enabled: true
+
 Performance/ChainArrayAllocation:
   Enabled: true
 
 Performance/OpenStruct:
+  Enabled: true
+
+Performance/Squeeze:
+  Enabled: true
+
+Performance/SortReverse:
+  Enabled: true
+
+Performance/ReverseFirst:
+  Enabled: true
+
+Performance/RedundantStringChars:
+  Enabled: true
+
+Performance/RedundantSortBlock:
+  Enabled: true
+
+Performance/IoReadlines:
+  Enabled: true
+
+Performance/DeleteSuffix:
+  Enabled: true
+
+Performance/BindCall:
+  Enabled: true
+
+Performance/BigDecimalWithNumericArgument:
   Enabled: true

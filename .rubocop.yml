@@ -4,6 +4,3 @@ require:
   - rubocop-rspec
 
 inherit_from: default.yml
-
-Style/Documentation:
-  Enabled: false
