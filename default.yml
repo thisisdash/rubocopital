@@ -222,6 +222,21 @@ Style/AccessorGrouping:
 Style/StringLiteralsInInterpolation:
   Enabled: false
 
+Style/ExplicitBlockArgument:
+  Enabled: false
+
+Style/GlobalStdStream:
+  Enabled: false
+
+Style/OptionalBooleanParameter:
+  Enabled: false
+
+Style/SingleArgumentDig:
+  Enabled: false
+
+Style/StringConcatenation:
+  Enabled: false
+
 Lint/DisjunctiveAssignmentInConstructor:
   Enabled: true
 
@@ -240,6 +255,9 @@ Lint/ToJSON:
 Gemspec/RubyVersionGlobalsUsage:
   Enabled: true
 
+Gemspec/RequiredRubyVersion:
+  Enabled: false
+
 Lint/NonDeterministicRequireOrder:
   Enabled: false
 
@@ -257,3 +275,30 @@ Lint/StructNewOverride:
 
 Lint/DuplicateElsifCondition:
   Enabled: true
+
+Lint/BinaryOperatorWithIdenticalOperands:
+  Enabled: false
+
+Lint/DuplicateRescueException:
+  Enabled: false
+
+Lint/EmptyConditionalBody:
+  Enabled: false
+
+Lint/FloatComparison:
+  Enabled: false
+
+Lint/MissingSuper:
+  Enabled: false
+
+Lint/OutOfRangeRegexpRef:
+  Enabled: false
+
+Lint/SelfAssignment:
+  Enabled: false
+
+Lint/TopLevelReturnWithArgument:
+  Enabled: false
+
+Lint/UnreachableLoop:
+  Enabled: false
