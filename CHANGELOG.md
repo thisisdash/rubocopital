@@ -6,6 +6,26 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.7.1] - 05 October 2020
+
+- Upgrade rubocop to 0.89.0 to prevent bug in 0.88.0
+
+- Added Style/ExplicitBlockArgument disabled
+- Added Style/GlobalStdStream disabled
+- Added Style/OptionalBooleanParameter disabled
+- Added Style/SingleArgumentDig disabled
+- Added Style/StringConcatenation disabled
+
+- Added Lint/BinaryOperatorWithIdenticalOperands disabled
+- Added Lint/DuplicateRescueException disabled
+- Added Lint/EmptyConditionalBody disabled
+- Added Lint/FloatComparison disabled
+- Added Lint/MissingSuper disabled
+- Added Lint/OutOfRangeRegexpRef disabled
+- Added Lint/SelfAssignment disabled
+- Added Lint/TopLevelReturnWithArgument disabled
+- Added Lint/UnreachableLoop disabled
+
 ## [0.7.0] - 10 August 2020
 
 - Added Rails/ActiveRecordCallbacksOrder
