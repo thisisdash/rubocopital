@@ -1,6 +1,5 @@
 inherit_from:
   - .rubocop-performance.yml
-  - .rubocop-rails.yml
   - new_cops.yml
 
 AllCops:
