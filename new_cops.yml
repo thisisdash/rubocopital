@@ -87,13 +87,3 @@ Style/NilLambda: # (new in 1.3)
 Style/RedundantArgument: # (new in 1.4)
   Enabled: false
 
-Rails/AfterCommitOverride: # (new in 2.8)
-  Enabled: false
-Rails/AttributeDefaultBlockValue: # (new in 2.9)
-  Enabled: false
-Rails/SquishedSQLHeredocs: # (new in 2.8)
-  Enabled: false
-Rails/WhereEquals: # (new in 2.9)
-  Enabled: false
-Rails/WhereNot: # (new in 2.8)
-  Enabled: false

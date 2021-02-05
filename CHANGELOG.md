@@ -6,7 +6,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [1.0.0] - 05 Febuary 2021
+## [1.0.1] - 05 February 2021
+
+### Fixed
+
+- Fixed projects without Rubocop-Rails
+
+## [1.0.0] - 05 February 2021
 
 ### Changed
 
