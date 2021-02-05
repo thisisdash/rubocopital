@@ -7,7 +7,7 @@ This is the common configuration for ruby-style checks by [Rubocop](https://gith
 Add this line to your application's Gemfile under the `development` and `test` groups to include a specific version of this gem:
 
 ```ruby
-gem 'rubocopital', '~> 0.6.1', require: false
+gem 'rubocopital', '~> 1.0.0', require: false
 ```
 
 And then execute:
@@ -36,7 +36,7 @@ you can just add them below.
       - default.yml
 
   AllCops:
-    TargetRubyVersion: 2.3
+    TargetRubyVersion: 3.0
     DisplayCopNames: false
     DisplayStyleGuide: true
 ```
