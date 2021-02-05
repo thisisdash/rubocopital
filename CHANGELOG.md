@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.0] - 05 Febuary 2021
+
+### Changed
+
+- Upgrade Rubocop from 0.89.0 to 1.9.1
+- Upgrade Rubocop-Performance from 1.7.1 to 1.9.2
+- Upgrade Rubocop-Rails from 2.7.0 to 2.9.1
+
 ## [0.7.1] - 05 October 2020
 
 - Upgrade rubocop to 0.89.0 to prevent bug in 0.88.0
