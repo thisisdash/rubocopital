@@ -4,6 +4,5 @@ require:
   - rubocop-rspec
 
 inherit_from:
-  - new_cops.yml
   - default.yml
 

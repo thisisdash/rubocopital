@@ -14,33 +14,6 @@ Style/RedundantSelfAssignment: # (new in 0.90)
   Enabled: false
 Style/SoleNestedConditional: # (new in 0.89)
   Enabled: false
-Rails/ActiveRecordCallbacksOrder: # (new in 2.7)
-  Enabled: false
-Rails/FindById: # (new in 2.7)
-  Enabled: false
-Rails/Inquiry: # (new in 2.7)
-  Enabled: false
-Rails/MailerName: # (new in 2.7)
-  Enabled: false
-Rails/MatchRoute: # (new in 2.7)
-  Enabled: false
-Rails/NegateInclude: # (new in 2.7)
-  Enabled: false
-Rails/Pluck: # (new in 2.7)
-  Enabled: false
-Rails/PluckId: # (new in 2.7)
-  Enabled: false
-Rails/PluckInWhere: # (new in 2.7)
-  Enabled: false
-Rails/RenderInline: # (new in 2.7)
-  Enabled: false
-Rails/RenderPlainText: # (new in 2.7)
-  Enabled: false
-Rails/ShortI18n: # (new in 2.7)
-  Enabled: false
-Rails/WhereExists: # (new in 2.7)
-  Enabled: false
-
 
 Layout/BeginEndAlignment: # (new in 0.91)
   Enabled: false
@@ -51,14 +24,12 @@ Lint/IdentityComparison: # (new in 0.91)
 Lint/UselessTimes: # (new in 0.91)
   Enabled: false
 
-
 Lint/HashCompareByIdentity: # (new in 0.93)
   Enabled: false
 Lint/RedundantSafeNavigation: # (new in 0.93)
   Enabled: false
 Style/ClassEqualityComparison: # (new in 0.93)
   Enabled: false
-
 
 Lint/DuplicateRegexpCharacterClassElement: # (new in 1.1)
   Enabled: false
@@ -74,7 +45,6 @@ Style/DocumentDynamicEvalDefinition: # (new in 1.1)
   Enabled: false
 Style/SwapValues: # (new in 1.1)
   Enabled: false
-
 
 Layout/SpaceBeforeBrackets: # (new in 1.7)
   Enabled: false
@@ -126,15 +96,4 @@ Rails/SquishedSQLHeredocs: # (new in 2.8)
 Rails/WhereEquals: # (new in 2.9)
   Enabled: false
 Rails/WhereNot: # (new in 2.8)
-  Enabled: false
-
-Performance/BlockGivenWithExplicitBlock: # (new in 1.9)
-  Enabled: false
-Performance/CollectionLiteralInLoop: # (new in 1.8)
-  Enabled: false
-Performance/ConstantRegexp: # (new in 1.9)
-  Enabled: false
-Performance/MethodObjectAsBlock: # (new in 1.9)
-  Enabled: false
-Performance/Sum: # (new in 1.8)
   Enabled: false
