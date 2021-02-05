@@ -1,4 +1,7 @@
-inherit_from: .rubocop-performance.yml
+inherit_from:
+  - .rubocop-performance.yml
+  - .rubocop-rails.yml
+  - new_cops.yml
 
 AllCops:
   TargetRubyVersion: 2.6
