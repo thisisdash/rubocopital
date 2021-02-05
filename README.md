@@ -72,6 +72,23 @@ run `git tag -a vX.Y.Z -m "Your Message"` and `git push origin vX.Y.Z`.
 
 ## Contributing
 
+### Publish gem to RubyGems
+
+First signin to ruby gems using:
+```
+gem signin
+```
+
+Once this has been setup, you can now build the gem using:
+```
+gem build rubocopital.gemspec
+```
+
+You can push out the gem package that was built using:
+```
+gem push rubocopital-x.x.x.gem
+```
+
 ## License
 
 The gem is available as open source under the terms of the
