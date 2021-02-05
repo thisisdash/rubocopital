@@ -3,4 +3,7 @@ require:
   - rubocop-rails
   - rubocop-rspec
 
-inherit_from: default.yml
+inherit_from:
+  - new_cops.yml
+  - default.yml
+
