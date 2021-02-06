@@ -112,6 +112,9 @@ Rails/UnknownEnv:
     - training
     - production
 
+Rails/IndexBy:
+  Enabled: true
+
 # TODO Cops
 Rails/AfterCommitOverride: # (new in 2.8)
   Enabled: false
