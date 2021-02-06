@@ -86,4 +86,3 @@ Style/NilLambda: # (new in 1.3)
   Enabled: false
 Style/RedundantArgument: # (new in 1.4)
   Enabled: false
-

@@ -1,8 +1,4 @@
-require:
-  - rubocop-performance
-  - rubocop-rails
-  - rubocop-rspec
-
 inherit_from:
   - default.yml
-
+  - .rubocop-rails.yml
+  - .rubocop-rspec.yml
