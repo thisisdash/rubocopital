@@ -304,3 +304,6 @@ Lint/TopLevelReturnWithArgument:
 
 Lint/UnreachableLoop:
   Enabled: false
+
+Style/DisableCopsWithinSourceCodeDirective:
+  Enabled: false
