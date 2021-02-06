@@ -1,22 +1,22 @@
 require: rubocop-rspec
 
-Capybara/CurrentPathExpectation:
+RSpec/Capybara/CurrentPathExpectation:
   Enabled: true
 
-Capybara/FeatureMethods:
+RSpec/Capybara/FeatureMethods:
   Enabled: true
 
-FactoryBot/AttributeDefinedStatically:
+RSpec/FactoryBot/AttributeDefinedStatically:
   Enabled: true
 
-FactoryBot/CreateList:
+RSpec/FactoryBot/CreateList:
   Enabled: true
   EnforcedStyle: create_list
 
-FactoryBot/FactoryClassName:
+RSpec/FactoryBot/FactoryClassName:
   Enabled: true
 
-Rails/HttpStatus:
+RSpec/Rails/HttpStatus:
   Enabled: true
   EnforcedStyle: symbolic
 
@@ -136,9 +136,6 @@ RSpec/InstanceSpy:
 
 RSpec/InstanceVariable:
   AssignmentOnly: true
-  Enabled: true
-
-RSpec/InvalidPredicateMatcher:
   Enabled: true
 
 RSpec/ItBehavesLike:
@@ -264,15 +261,3 @@ RSpec/RepeatedExampleGroupBody:
 
 RSpec/EmptyHook:
   Enabled: true
-
-# TODO Cops
-Rails/AfterCommitOverride: # (new in 2.8)
-  Enabled: false
-Rails/AttributeDefaultBlockValue: # (new in 2.9)
-  Enabled: false
-Rails/SquishedSQLHeredocs: # (new in 2.8)
-  Enabled: false
-Rails/WhereEquals: # (new in 2.9)
-  Enabled: false
-Rails/WhereNot: # (new in 2.8)
-  Enabled: false
