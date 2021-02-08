@@ -6,7 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## Fixed
+## [1.0.2] - 08 February 2021
+
+### Fixed
 - Fix new Rails cops being loaded when using RSpec configuration
 - Fix RSpec cop error for non-existing RSpec/InvalidPredicateMatcher
 - Fix RSpec cop name warnings
