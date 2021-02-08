@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+- Explicitly set configuration for a few cops, no changes as the configuration is the same as rubocop's defaults.
+
 ## [1.0.2] - 08 February 2021
 
 ### Fixed
